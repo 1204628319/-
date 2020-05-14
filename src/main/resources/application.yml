@@ -62,8 +62,8 @@ payConfig:
   clientIp: 223.8.8.8
   agencyType: wzb
   # 默认进件人身份证号码
-  certId: 430624198811275033
+  certId: 222
   # 默认进件人手机号码
-  mobile: 13548024650
+  mobile: 322332
   # 默认进件人银行卡号
-  cardNo: 6228480468372892876
+  cardNo: 323
