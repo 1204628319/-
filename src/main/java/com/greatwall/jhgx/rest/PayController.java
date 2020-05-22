@@ -298,7 +298,7 @@ public class PayController {
         }
 
         queryWrapper = new QueryWrapper();
-        queryWrapper.eq("CERT_ID", member.getCertId()).select("ID", "CERT_ID", "SETTLE_MOBILE", "CONS_RATE", "SIGN_STATUS", "CREATE_TIME");
+        queryWrapper.eq("CERT_ID", member.getCertId()).select("ID", "CERT_ID", "SETTLE_MOBILE", "CONS_RATE", "SIGN_STATUS", "CREATE_TIME", "REAL_NAME");
         queryWrapper.orderByDesc("CREATE_TIME");
         list  = memberService.list(queryWrapper);
         for (Member vo : list) {
